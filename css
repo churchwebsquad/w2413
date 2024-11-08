@@ -1,0 +1,395 @@
+/*SUMMARY BLOCK START*/
+/*Kahala Campus*/ #block-yui_3_17_2_1_1728941546240_103660, /*Kapolei Campus*/ #block-eddd22e89635312df29d, /*Ewa*/ section[data-section-id="670da9454bf71d085a51adcb"], /*Growth Track*/ #block-yui_3_17_2_1_1729290046627_164612, /*Discipleship track*/ section[data-section-id="6712fc8c257c97627665c7b4"], /*freedom wknd*/ section[data-section-id="6712fd8ef84a3503cd0e2c3f"], /*life matters*/ #collection-6722658f5426e01e67006ab5, /*Pearlside Cares*/ #collection-6722bc2f5119593df57046a8, /*Leadership Page*/ #collection-67241507e7ec71646439e82f {
+.customFiltersWrapper .clearAllBtn {
+  border-radius: 5px;
+}
+
+.summary-metadata-item:after {
+  display: none;
+}
+
+.summary-metadata-container .summary-metadata {
+  background-color: #C1E9E6;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.summary-thumbnail img {
+  width: 100% !important;
+  border-radius: 5px 5px 0 0;
+} 
+
+  .summary-item {
+    display:flex;
+    flex-direction:column;
+  background: #f9f9f9;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+    width:100% !important;
+    margin-right: initial !important;
+    margin-bottom: initial !important;
+    margin-left: initial !important;
+    position: relative;
+  }
+
+.summary-title-link {
+  font-family: var(--heading-font-font-family);
+  font-size: 25px;
+  font-weight: var(--heading-font-font-weight);
+}
+
+.sqs-block-summary-v2 .summary-excerpt {
+  margin: 15px 0;
+}
+
+.summary-excerpt {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.summary-excerpt p {
+  color: #666;
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 1.6em;
+}
+
+.summary-read-more-link {
+  background-color: var(--medium-color);
+  text-align: center !important;
+  padding: 10px;
+  border-radius: 5px;
+  color: white !important;
+  transition: 0.5s;
+    position: absolute;
+  bottom: 10px !important;
+  left: 25px;
+  right: 25px; 
+}
+
+.summary-read-more-link:hover {
+  opacity: 75%;
+}
+
+  .summary-content{
+    flex-grow: 1;
+    display:flex;
+    flex-direction:column;
+  padding: 5px 25px 55px 25px;
+
+  }
+
+.summary-item-list {
+    display:grid;
+    grid-template-columns: ~'repeat(auto-fill, minmax(350px, 1fr))';
+    grid-gap:1.5rem;
+  }
+
+div.sqs-gallery {
+  margin-bottom: 0 !important;
+}
+
+button.pagination-loadMore {
+  color: var(--primaryButtonTextColor) !important;
+  border: 0;
+  border-radius: 5px;
+    background-color: var(--primaryButtonBackgroundColor);
+  font-family: var(--primary-button-font-font-family);
+    font-style: var(--primary-button-font-font-style);
+    font-weight: var(--primary-button-font-font-weight);
+    letter-spacing: var(--primary-button-font-letter-spacing);
+    text-transform: var(--primary-button-font-text-transform);
+  font-size: 14px;
+    line-height: 20px;
+  }}
+
+/*SUMMARY BLOCK END*/
+
+
+
+// --- Colors --- //
+
+:root {
+  --lightest-color: #f6f4f3;
+  --light-color: #09a99a;
+  --medium-color: #da1508;
+}
+
+
+//Hover Menu Animation//
+.header-nav-folder-title::after, .header-nav-folder-item a::after,  {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--medium-color);
+  transform-origin: bottom left;
+  transition: transform 0.25s ease;
+}
+
+.header-nav-folder-item a {
+   transition-duration: 0.5s; 
+}
+
+.header-nav-folder-item a:hover {
+  color: var(--medium-color) !important;
+}
+
+.header-nav-folder-title:hover::after, .header-nav-folder-item a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+body:not(.header--menu-open) .header-nav-item--active>a {
+  background-image: linear-gradient(var(--medium-color),var(--medium-color));}
+
+//Expanding Dropdown Menu Spacing//
+.header-nav-folder-item a {
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+
+// Accordian - Widening the Spacing for paragraph blocks //
+.accordion-item__description {
+  max-width: 550px !important;
+}
+
+// Livestream Video - Visibility Toggle //
+.live-now {
+display: block;
+}
+
+.not-live {
+display: none;
+}
+
+//Adjust Staff Bio Email Formatting & Border Style//
+.user-items-list-item-container li a {
+  font-family: "museo sans", sans-serif  !important;
+  letter-spacing: 2px !important;
+  font-size: .9rem !important;
+  font-weight: 700 !important;
+}
+
+section[data-section-id="641e399301f25237f696027f"] li {
+  border-top: var(--medium-color) solid 8px;
+}
+
+//Sermon Series Blog Pages//
+.blog-item-content hr {
+  background-color: var(--light-color)
+}
+
+#itemPagination {
+  display: none;
+}
+
+.blog-item-title {
+  padding-top: 55px;
+}
+
+//Messages Page Filter Edits - Changing font to titles and search - changing border color//
+#yui_3_17_2_1_1679954240832_893, #yui_3_17_2_1_1679954823278_848, #yui_3_17_2_1_1679954240832_713, .archive-group-list li, section[data-section-id="642202b85c23d43962dfa6a0"] .summary-title-link, section[data-section-id="64248ff4fffd8977d632933b"] .summary-title-link, section[data-section-id="6424c9076b82d31a5ddb6020"] .summary-title-link, .customFiltersContainer .defaultLabel, .customFiltersContainer .search-input {
+  font-weight: 600;
+  font-family: museo-sans;
+  letter-spacing: 1px;
+}
+
+.custom-filter-container.custom-filter-view-dropdowns.lite-dropdowns .customFiltersWrapper .sqs-block .search-wrap .search-input, .custom-filter-container.custom-filter-view-dropdowns.lite-dropdowns .customFiltersWrapper .archive-block-wrapper .archive-dropdown-toggle-label {
+  border-width: 0px 0px 2px !important;
+  border-color: var(--medium-color) !important;
+}
+
+//EVENTS//
+@media screen and (min-width: 750px) {
+//Events Pages - Title //
+//Sticky Title//
+.eventitem-column-meta {position:sticky!important; top: 5vh!important}
+}
+
+//Title Formatting//
+.eventitem-title {
+  color: var(--dark-color);
+  text-decoration: underline;
+  margin-bottom: 10px !important;
+}
+
+//Events Page - Background //
+.eventitem-column-meta {
+  background:  var(--medium-color);;
+  padding: 25px;
+height: fit-content; 
+  border-right: 5px solid  var(--lightest-color);;
+}
+
+//Remove back to events link//
+.eventitem-backlink {
+  display: none;
+}
+
+//Decrease Padding Top//
+.tweak-events-stacked-height-large .events {
+  padding-top: 70px;
+}
+
+//Messages - Single Column Videos//
+@media screen and (max-width: 767px){
+.sqs-layout .sqs-gallery-design-grid-slide {
+  width: 100% !important;
+}}
+
+//Small Group Curriculum Spacing + Formatting//
+.lesson-item .lesson-details {
+  margin: 5vw 5vw 0px 5vw;
+}
+
+.lesson-details-description a {
+  color: var(--medium-color);
+  transition: .25s;
+}
+
+.lesson-details-description a:hover {
+  color: var(--lightest-color);
+}
+
+//Small Group Curriculum - Other Videos Title Swap//
+.lessons-item-related-title {
+    font-size: 0px;
+  }  
+
+.lessons-item-related-title:after {
+  font-size: calc((2 - 1) * 1.2vw + 1rem);
+   content: "Other Videos In This Series:";
+  color: var(--medium-color);
+  }
+
+@media screen and (min-width: 768px) {
+.fe-block-yui_3_17_2_1_1680204266113_331695 {
+  column-count: 2 !important;
+  column-gap: 30px !important;
+  }}
+
+body[class*="type-blog"], [class*="type-events"], [class*="type-products"] {
+header#header img {
+    filter: brightness(0);
+}
+}
+
+/*Remove Squarespace Code Block Notices for Sizing*/html.squarespace-damask .sqs-blockStatus, html.squarespace-damask .sqs-blockStatus, .sqs-block .removed-script { display: none !important;}
+
+/* --- Move Blog Tag Above Content --- */
+/* Moving the tags */
+.blog-item-content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling the tags */
+.blog-item-wrapper .blog-meta-item--tags {
+  margin-bottom: 30px;
+  margin-top: 0;
+  order: -1;
+  text-align: center;
+}
+
+/*Dyanmic Table of Contents*/
+.class-a h4, .class-a a {
+  font-size: 17px;
+  line-height: 30px;
+  display: block !important;
+  transition: 1s;
+  padding-left: 20px;
+  margin: 10px;
+}
+
+.class-a a:hover {
+  opacity: 50%;
+}
+
+.class-a a {
+    transition: color .1s, border-left 0.1s, font-weight 0.1s;
+}
+
+.class-a a.active {
+    color: var(--medium-color);
+    font-weight: bold;
+    border-left: 3px solid var(--medium-color);
+}
+
+/* Blog */
+.blog-item-title {
+  padding-top: 0px !important;
+}
+.blog-basic-grid .blog-title {
+  font-size: 24px !important;
+}
+section[data-section-id="67225331f01cf66567a92528"] .blog-basic-grid .blog-basic-grid--text {
+  width: 100% !important;
+}
+
+/*Serve Team Cards*/ #collection-6722cf0a3c74b81ab10333ef .list-item-content em {
+  background-color: #C1E9E6;
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+
+
+/*Campus Carousel List*/  
+/*homepage*/ section[data-section-id="6709a3b1d9c82923c113225f"], /*Plan a Visit*/ section[data-section-id="6722443a4bf3df5d98b75441"], /*404 Page*/ section[data-section-id="672e417b398d0f2cbf7cb06d"]
+  {
+    a .list-item-content__button {
+  border: solid 1px white !important;
+  background: transparent !important;
+}
+
+ .user-items-list-banner-slideshow .slides img {
+  mask-image: linear-gradient(360deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.10) 1%);
+    -webkit-mask-image: linear-gradient(180deg, rgba(0, 0, 0, 100) 30%, rgba(0, 0, 0, .10) 90%);
+ 
+}  
+  
+ .slide.list-item {
+  background-color: black !important;
+              
+  }  
+  
+ li {
+  width: 40%;
+}
+
+    .list-item-content__title a {
+     font-size: 36px !important;
+      font-weight: 200 !important;
+      letter-spacing: 0.5rem;
+      font-family: 'Raleway';
+    }
+
+@media screen and (max-width: 575px){
+ li {
+  width: 95%;
+  border-right: 12px solid white;
+}
+    }}
+
+/*Discipleship Books*/
+
+section[data-section-id="6723c9fd3de4342ec5a9ef29"] li.list-item {
+    flex-direction: row !important;
+    align-items: center;
+  gap: 25px;
+}
+
+section[data-section-id="6723c9fd3de4342ec5a9ef29"] .user-items-list-simple[data-alignment-vertical="stretch"][data-content-order="media-first"] .list-item-content {min-width: 50%;}
+
+@media screen and (max-width:768px) {
+section[data-section-id="6723c9fd3de4342ec5a9ef29"] li.list-item {
+    flex-direction: column !important;
+    align-items: center;
+    gap: 25px;
+}}
